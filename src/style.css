@@ -16,6 +16,8 @@ body {
   border: 2px solid rgb(163, 161, 161);
   border-radius: 12px;
   padding: 15px;
+  background: linear-gradient(to bottom, #6cc8e6 15%, #f5bb8a 94%);
+  box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.5), 0 0px 88px 0 rgba(0, 0, 0, 0.5);
 }
 
 .overview {
