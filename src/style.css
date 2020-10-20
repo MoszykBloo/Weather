@@ -1,22 +1,24 @@
 body {
   margin: 0 auto;
   display: block;
-  color: rgb(94, 93, 93);
+  color: rgb(90, 90, 90);
+  font-size: 20px;
 }
 
 #wrapper-app {
   border: 0px solid rgba(245, 13, 187, 0.932);
   max-width: 470px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #weather-app {
   margin: 0px auto;
   margin-top: 7%;
-  border: 2px solid rgb(163, 161, 161);
+  border: 0px solid rgb(163, 161, 161);
   border-radius: 12px;
   padding: 15px;
-  background: linear-gradient(to bottom, #6cc8e6 15%, #f5bb8a 94%);
+  background: linear-gradient(to bottom, #d2ebf3 10%, #f7cf75 130%);
   box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.5), 0 0px 88px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -30,11 +32,6 @@ h1 {
   margin: 0px auto 15px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 #date,
 #description {
   list-style: none;
@@ -45,11 +42,18 @@ ul {
 .weather-temperature img {
   margin: -65px auto;
   display: block;
-  width: 60%;
+  width: 57%;
 }
 
-#numbers {
-  text-align: center;
+#big-temp {
+  text-align: right;
+  padding-right: 3px;
+}
+
+#c-f {
+  text-align: left;
+  top: 15px;
+  padding-left: 3px;
 }
 
 #temperature {
@@ -58,7 +62,7 @@ ul {
 
 #details {
   margin: 10px auto;
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -78,10 +82,6 @@ ul {
   cursor: default;
 }
 
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
-
 .row #forecast-weather {
   margin: 10px 10px 10px 10px;
 }
@@ -96,7 +96,7 @@ div#dairy.col-4 {
 
 div#dairy.col-4:hover {
   border-radius: 12px;
-  background-color: rgb(245, 240, 240);
+  background: linear-gradient(to bottom, #f8ebcd 10%, #f0c664 130%);
 }
 
 .day-icon {
@@ -107,10 +107,19 @@ div#dairy.col-4:hover {
 .day,
 .day-temp {
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #current {
   font-size: 16px;
   padding: 7px;
+}
+
+#credits {
+  font-size: 95%;
+  font-weight: bolder;
+}
+
+a {
+  color: teal;
 }
