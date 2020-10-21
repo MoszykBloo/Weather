@@ -41,6 +41,10 @@ body {
   padding: 7px 0 6px 2px;
 }
 
+#city-input {
+  color: rgb(110, 105, 105);
+}
+
 .overview {
   margin-bottom: 15px;
   text-align: center;
