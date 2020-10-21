@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
@@ -19,13 +20,20 @@
                 <form id="search-form" class="mb-3">
                     <div class="row">
                         <div class="col-6">
-                            <input type="search" placeholder="Enter a city" class="form-control" id="city-input" />
+                            <input type="search" 
+                                   placeholder="Enter a city" 
+                                   class="form-control" 
+                                   id="city-input" />
                         </div>
                         <div class="col-3">
-                            <input type="submit" value="Search" class="btn btn-outline-primary w-100" />
+                            <input type="submit" 
+                                   value="Search" 
+                                   class="btn btn-outline-primary w-100" 
+                                   id="search-button"/>
                         </div>
                         <div class="col-3">
-                            <button class="btn btn-outline-info w-100" id="current">Current</button>
+                            <button class="btn btn-outline-info w-100" 
+                                    id="current">Current</button>
                         </div>
                     </div>
                 </form>
@@ -76,14 +84,10 @@
             </div>
             
             <small>
-                <a href="https://github.com/MoszykBloo/Vanilla-Weather-App" target="blank" id="credits">Open source code</a> by
+                <a href="https://github.com/MoszykBloo/Weather" target="blank" id="credits">Open source code</a> by
                 Monica Camacho
             </small>
-
-
-
         </div>
-
     </div>
     <script src="src/index.js"></script>
 </body>
