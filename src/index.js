@@ -45,7 +45,7 @@ function showTemperature(response){
     sensationElement.innerHTML = Math.round(response.data.main.feels_like);
     humidityElement.innerHTML = Math.round(response.data.main.humidity);
     windElement.innerHTML = Math.round(response.data.wind.speed);
-    dateElement.innerHTML = `Last updated: ${formatDate(response.data.dt * 1000)}`;
+    dateElement.innerHTML = `Last updated: <br>${formatDate(response.data.dt * 1000)}`;
     iconElement.setAttribute(
         "src", 
         `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`

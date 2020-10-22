@@ -89,22 +89,6 @@ h1 {
   text-align: center;
 }
 
-.weather-temperature strong {
-  font-size: 55px;
-  line-height: 1;
-  font-weight: 400;
-}
-
-.weather-temperature #degrees {
-  position: relative;
-  top: -30px;
-}
-
-.weather-temperature .active {
-  color: rgb(94, 93, 93);
-  cursor: default;
-}
-
 .row #forecast-weather {
   margin: 10px 10px 10px 10px;
   color: hsl(-325deg 52% 58%);
